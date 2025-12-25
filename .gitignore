@@ -1,0 +1,64 @@
+# Git ignore for CUDA project
+# Build directory
+build/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CUDA specific
+*.cubin
+*.fatbin
+*.ptx
+*.cu.c
+*.cu.h
+
+# Profiling data
+*.nvprof
+*.nvvp
+*.qdrep
+*.qdstrm
+*.sqlite
+*.nsys-rep
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
